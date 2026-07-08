@@ -72,7 +72,7 @@
     </tr>
     <tr>
         <td>10</td>
-        <td><img src="./icons/千笔AI论文.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://www.qianbixiezuo.com/?pic=g5DP" target="_blank">千笔AI论文</a></td>
         <td>全网首家论文无限改稿平台</td>
         <td><a href="https://www.qianbixiezuo.com/?pic=g5DP" target="_blank">🔗</a></td>
@@ -1211,7 +1211,7 @@
     </tr>
     <tr>
         <td>82</td>
-        <td><img src="./icons/妙思.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://admuse.qq.com/" target="_blank">妙思</a></td>
         <td>腾讯广告推出的一站式AI广告创意平台</td>
         <td><a href="https://admuse.qq.com/" target="_blank">🔗</a></td>
@@ -2455,7 +2455,7 @@
     </tr>
     <tr>
         <td>77</td>
-        <td><img src="./icons/通义灵眸.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://avatar.console.aliyun.com/lingmou" target="_blank">通义灵眸</a></td>
         <td>阿里通义推出的AI数字人生产平台</td>
         <td><a href="https://avatar.console.aliyun.com/lingmou" target="_blank">🔗</a></td>
@@ -4376,7 +4376,7 @@
     </tr>
     <tr>
         <td>41</td>
-        <td><img src="./icons/AgentPolis.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://agent-polis.com/" target="_blank">AgentPolis</a></td>
         <td>专为AI Agent打造的交易、社交、协作平台</td>
         <td><a href="https://agent-polis.com/" target="_blank">🔗</a></td>
@@ -4892,7 +4892,7 @@
     </tr>
     <tr>
         <td>14</td>
-        <td><img src="./icons/LongCat.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://longcat.chat/" target="_blank">LongCat</a></td>
         <td>美团推出的自研大模型AI对话平台</td>
         <td><a href="https://longcat.chat/" target="_blank">🔗</a></td>
@@ -6015,7 +6015,7 @@
     </tr>
     <tr>
         <td>27</td>
-        <td><img src="./icons/蚂上有创意.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://idesign.alipay.com/" target="_blank">蚂上有创意</a></td>
         <td>支付宝推出的AI设计工具，面向商家提供电商设计服务</td>
         <td><a href="https://idesign.alipay.com/" target="_blank">🔗</a></td>
@@ -6741,7 +6741,7 @@
     </tr>
     <tr>
         <td>32</td>
-        <td><img src="./icons/MemoAI.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://memo.ac/" target="_blank">MemoAI</a></td>
         <td>免费的AI语音转文字工具</td>
         <td><a href="https://memo.ac/" target="_blank">🔗</a></td>
@@ -7446,7 +7446,7 @@
     </tr>
     <tr>
         <td>40</td>
-        <td><img src="./icons/Adot.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://www.adot.tech/" target="_blank">Adot</a></td>
         <td>一个由AI驱动的 Web3 搜索引擎</td>
         <td><a href="https://www.adot.tech/" target="_blank">🔗</a></td>
@@ -7850,7 +7850,7 @@
     </tr>
     <tr>
         <td>56</td>
-        <td><img src="" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://www.x-aio.com/" target="_blank">X-All in one</a></td>
         <td>高性能、高性价比的 AI API 平台</td>
         <td><a href="https://www.x-aio.com/" target="_blank">🔗</a></td>
@@ -8567,7 +8567,7 @@
     </tr>
     <tr>
         <td>45</td>
-        <td><img src="./icons/商量SenseChat_9fa8d1b7.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://chat.sensetime.com/wb" target="_blank">商量SenseChat</a></td>
         <td>商汤科技推出的类ChatGPT的人工智能大语言模型</td>
         <td><a href="https://chat.sensetime.com/wb" target="_blank">🔗</a></td>
@@ -8913,7 +8913,7 @@
     </tr>
     <tr>
         <td>19</td>
-        <td><img src="./icons/AI Prompt Genius.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td></td>
         <td><a href="https://www.aipromptgenius.app/" target="_blank">AI Prompt Genius</a></td>
         <td>AI提示词库创建和管理工具</td>
         <td><a href="https://www.aipromptgenius.app/" target="_blank">🔗</a></td>
