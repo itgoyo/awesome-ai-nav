@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="//storage.360buyimg.com/o2-d2c/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deco - 设计稿一键生成多端代码</title>
+
+    <script type="text/javascript">
+      var jap = {
+        siteId : 'JA2021_2123666',
+        autoLogPv : true,
+        anchorpvflag : true
+      };
+
+      window.jap = jap;
+    </script>
+    <script type="text/javascript" src="//wl.jd.com/unify.min.js"></script>
+  <script type="module" crossorigin src="/assets/index.7046f55d.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.4691776a.js">
+  <link rel="stylesheet" href="/assets/index.5ce4c203.css">
+</head>
+  <body>
+    <div id="root"></div>
+    
+    
+  </body>
+</html>

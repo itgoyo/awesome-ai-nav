@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="ahot-aplus" content="1">
+    <meta name="aplus-rate-ahot" content="0.5">
+    <title>阿里云登录 - 欢迎登录阿里云，安全稳定的云计算服务平台</title>
+
+    <!-- TRACK 埋点-->
+    <meta name="data-spm" content="5176" />
+    <meta name="description" content="欢迎登录阿里云，全球领先的云计算及人工智能科技公司，阿里云为200多个国家和地区的企业、开发者和政府机构提供云计算基础服务及解决方案。阿里云云计算、安全、大数据、人工智能、企业应用、物联网等云计算服务。">
+    <meta name="keyword" content="云服务器、云主机、弹性计算、云存储、开放存储、OSS、ACE、数据库、mysql、RDS、SQLSERVER、开发者、负载均衡、防攻击、防DDOS攻击、云监控、云浏览器、云地图、云邮箱、phpwind、阿里云、云产品、云计算、多线带宽、BGP、服务器环境配置、渲染云、云手机、云盾、应用托管、云引擎、解决方案">
+    <meta property="og:title" content="阿里云登录 - 欢迎登录阿里云，安全稳定的云计算服务平台" />
+    <meta property="og:description" content="欢迎登录阿里云，全球领先的云计算及人工智能科技公司，阿里云为200多个国家和地区的企业、开发者和政府机构提供云计算基础服务及解决方案。阿里云云计算、安全、大数据、人工智能、企业应用、物联网等云计算服务。" />
+    <meta property="og:image" content="https://img.alicdn.com/tfs/TB1Ly5oS3HqK1RjSZFPXXcwapXa-238-54.png" />
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+    <link rel="preconnect" href="//g.alicdn.com" crossorigin>
+    <link rel="preconnect" href="//img.alicdn.com" crossorigin>
+    <link rel="preconnect" href="//at.alicdn.com" crossorigin>
+    <link rel="preconnect" href="//o.alicdn.com" crossorigin>
+
+    <link rel="dns-prefetch" href="//cloud-assets.alicdn.com" crossorigin>
+    <link rel="dns-prefetch" href="//query.aliyun.com">
+    <link rel="dns-prefetch" href="//passport.aliyun.com" crossorigin>
+ 
+    <link rel="preload" href="//img.alicdn.com/imgextra/i3/O1CN01XPGaD31cwcc5WQBM2_!!6000000003665-0-tps-3840-2160.jpg" as="image" fetchpriority="high">
+    <link rel="icon" href="//img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico" type="image/x-icon">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2534976_apzveejcbkf.css">
+    <link rel="stylesheet" href="//g.alicdn.com/dawn/fe-account-login/1.0.79/index.css">
+</head>
+<body data-spm="12901015-2"><script  type="text/javascript"
+        nonce="rSIK4APDEl"
+>
+(function  (d)  {
+var  t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=&aplus&yunid=&yunpk=&channel=&cps=");
+t.src="//g.alicdn.com/alilog/mlog/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+<div id="root"></div>
+<div id="aliyun-login" style="visibility: hidden;"></div>
+<footer-mini />
+<script nonce="rSIK4APDEl">
+      window.DAWN_TRACKER_CONFIG = {
+        s_pid: 'aliyun-login-register',
+        user_type: 6,
+      };
+    </script>
+<script nonce="rSIK4APDEl">
+    window.loginContext = {
+        CSRF_TOKEN: '_csrf_tk_1518083481573755', // 来源： mini_qr_login 第18行
+        unesc_queryString: '&ft=pc_pwd_m&params=%7B%22site%22%3A%226%22%2C%22ru%22%3A%22https%3A%2F%2Favatar.console.aliyun.com%2Ffavicon.ico%22%2C%22umidToken%22%3A%22Yd25faf3367b4f4340b940dc9fd32d46f%22%7D',// 来源： mini_qr_login 第91行
+        traceId: '1ec84fc293254deeb6506c0c3e6f251eavuo',// 来源： mini_qr_login 第102行
+        accountDomain: 'https://account.aliyun.com', // 来源： mini_qr_login 第102行
+        loginSite: 'aliyun',// 来源： mini_qr_login 第116行
+        appEntrance: 'aliyun',// 来源： mini_qr_login 第117行
+        havanaBaseUrl: 'https://passport.aliyun.com',// 来源： mini_qr_login 第118行
+        lang: 'zh_CN',// 来源： mini_qr_login 第119行
+        queryStr: '&regUrl=https%3A%2F%2Faccount.aliyun.com%2Fregister%2Fqr_register.htm%3Foauth_callback%3Dhttps%253A%252F%252Favatar.console.aliyun.com%252Ffavicon.ico%26clearRedirectCookie%3D1%26lang%3Dzh&returnUrl=https%3A%2F%2Faccount.aliyun.com%2Flogin%2Flogin_aliyun.htm%3Fft%3Dpc_pwd_m%26oauth_callback%3Dhttps%253A%252F%252Favatar.console.aliyun.com%252Ffavicon.ico&newSmsLoginReg=true', // 来源： mini_qr_login 第124行
+        loginId: '',// 来源： mini_qr_login 第125行
+        aliyun_qr_url: 'uni_qr_login.htm', // 来源： mini_qr_login 第147行
+        isHitBetaVersion: false,
+        type: "LOGIN",
+        captchaLogin:'true',
+        captchaLoginReturnUrl:'',
+        captchaRegQueryStr:'&returnUrl=https%3A%2F%2Faccount.aliyun.com%2Flogin%2Flogin_aliyun.htm%3Fft%3Dpc_sms_login%26oauth_callback%3Dhttps%253A%252F%252Favatar.console.aliyun.com%252Ffavicon.ico%26ft%3Dpc_pwd_m%26params%3D%257B%2522site%2522%253A%25226%2522%252C%2522ru%2522%253A%2522https%253A%252F%252Favatar.console.aliyun.com%252Ffavicon.ico%2522%252C%2522umidToken%2522%253A%2522Yd25faf3367b4f4340b940dc9fd32d46f%2522%257D',
+        useOneStepVersion:true,
+        userLoginCenter:'master',
+        aliyunLoginHost:'account.aliyun.com',
+        havanaLoginHost:'passport.aliyun.com',
+        newSmsLoginReg:'true',
+        enablePasskey: 'true'
+    }
+
+</script>
+<script nonce="rSIK4APDEl" type="text/javascript" src="//o.alicdn.com/dawn/dawn-tracker-aliyun/index.umd.js"></script>
+<script nonce="rSIK4APDEl" src="https://g.alicdn.com/vip/havana-login/0.2.6/js/mini-login-embedder-min.js"></script>
+<script nonce="rSIK4APDEl" crossorigin src="https://g.alicdn.com/??aliyun/util/1.2.36/loader.js"></script>
+<script nonce="rSIK4APDEl" src="//g.alicdn.com/dawn/assets-loader/scripts/u2f.js"></script>
+<script nonce="rSIK4APDEl" crossorigin src="//g.alicdn.com/code/lib/??react/16.8.6/umd/react.production.min.js,react-dom/16.8.6/umd/react-dom.production.min.js"></script>
+<script nonce="rSIK4APDEl" src="//g.alicdn.com/dawn/fe-account-login/1.0.79/index.js"></script>
+<script nonce="rSIK4APDEl" src="https://cloud-assets.alicdn.com/common/footer/mini.zh.js"></script>
+<script nonce="rSIK4APDEl" src="//g.alicdn.com/aliyun/perf/js/index.js" async></script>
+<script nonce="rSIK4APDEl" src="//cloud-assets.alicdn.com/alicdn/dawn/user-tracker/latest/js/index.js" async></script>
+
+
+<script nonce="rSIK4APDEl">
+    !(function (c, b, d, a) {
+        c[a] || (c[a] = {}); c[a].config = { pid: "eqaf0lj5rb@c6546d8b7c78af1", appType: "web", imgUrl: "https://arms-retcode.aliyuncs.com/r.png?", useFmp: true, sendResource: true, disableHook: true };
+        with (b) with (body) with (insertBefore(createElement("script"), firstChild)) setAttribute("crossorigin", "", src = d)
+    })(window, document, "https://retcode.alicdn.com/retcode/bl.js", "__bl");
+</script>
+<script nonce="rSIK4APDEl">
+    var q = (window.goldlog_queue || (window.goldlog_queue = []));
+    q.push({
+        action: "goldlog.record",
+        arguments: ['/aliyun.exposure.page-exp', 'EXP', '']
+    });
+</script>
+</body>
+
+</html>

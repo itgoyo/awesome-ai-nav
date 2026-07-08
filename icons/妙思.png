@@ -1,0 +1,56 @@
+<!doctype html><html lang="zh-CN"><head><title>腾讯妙思 - 营销内容AIGC创作平台</title><meta charset="utf-8"/><link rel="shortcut icon" href="https://qzonestyle.gdtimg.com/gdt_ui_proj/imghub/dist/mw-ico-favicon.ico?max_age=31536000"><meta name="keywords" content="AIGC生成平台;AIGC创意;营销创意;广告素材;商业化内容;AI生图;AI生视频;腾讯广告;广告AI;生意内容"/><meta name="description" content="腾讯妙思是营销领域的商业内容AIGC创作平台，一站式解决从灵感到创作全流程。"/><meta property="og:site_name" content="腾讯妙思"><meta property="og:title" content="腾讯妙思 - 营销内容AIGC创作平台"><meta property="og:description" content="腾讯妙思是营销领域的商业内容AIGC创作平台，一站式解决从灵感到创作全流程。"><meta property="og:url" content="https://admuse.qq.com"><meta property="og:image" content="https://qzonestyle.gdtimg.com/gdt_ui_proj/imghub/dist/Logo-Specification1312315860.png?max_age=31536001"><meta property="og:image:width" content="2640"><meta property="og:image:height" content="1485"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/><meta name="mobile-web-app-capable" content="yes"/><meta name="full-screen" content="true"/><meta name="screen-orientation" content="portrait"/><meta name="x5-fullscreen" content="true"/><meta name="360-fullscreen" content="true"/><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/><script type="application/ld+json">{
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "腾讯妙思",
+      "url" : "https://admuse.qq.com/"
+    }</script><script>// Server time synchronization
+    (function () {
+      var serverTime = 1783481538 * 1000;
+      var clientTime = Date.now();
+      window.__serverTimeOffset = serverTime - clientTime;
+    })();</script><script>window.__startTime = Date.now();</script><script>// 异步加载 aegis 上报脚本，避免加载慢时阻塞页面渲染
+    if ('production' !== 'local') {
+      // eslint-disable-next-line no-var
+      var aegisScript = document.createElement('script');
+      aegisScript.src = 'https://cdn-go.cn/aegis/aegis-sdk/latest/aegis.min.js';
+      aegisScript.async = true;
+      aegisScript.onload = function () {
+        window.aegis = new Aegis({
+          id: 'xaOZIvClFaTlTUzXSd', // 项目ID，即上报id
+          uin: '', // 用户唯一 ID（可选）
+          reportApiSpeed: true, // 接口测速
+          reportAssetSpeed: true, // 静态资源测速
+          spa: true, // spa 页面开启
+          env: 'production',
+          hostUrl: 'https://rumt-zh.com',
+          version: '0.0.2', // 手动设置的版本，用来判断是否存在缓存
+          api: {
+            apiDetail: true,
+            retCodeHandler(data, url, xhr) {
+              // 注意这里的 data 的数据类型，跟接口返回值的数据类型一致，开发者需要根据实际情况自行处理
+              // fetch 请求的时候，data 是 string，如果需要对象需要手动 parse 下
+              // xhr 请求的时候，data 是 xhr.response 拿到完整的后台响应
+              let data2;
+              try {
+                data2 = JSON.parse(data);
+              } catch (e) { }
+              let isErr = !/20./.test(String(xhr.status));
+              let code = xhr.status;
+              // 返回体异常
+              if (data === '' && data2 === undefined) {
+                return { isErr: true, code };
+              }
+              if (url.includes('config.v2.ConfigService/PullConfigReq') && xhr.status === 0) {
+                isErr = false;
+                code = 200;
+              }
+              return {
+                isErr,
+                code,
+              };
+            },
+          },
+        });
+      };
+      document.head.appendChild(aegisScript);
+    }</script><link rel="stylesheet" href="https://staticfile.qq.com/creative-market/p414eb1bd203c483983472b4ff97af5a7/a9c1d20853794b3a8f6dfed6cae48c4d/style/css-layer-order.345c0986.css"/><link rel="stylesheet" href="https://staticfile.qq.com/creative-market/p414eb1bd203c483983472b4ff97af5a7/c325835bee254909a2cb8bbd968cd7bc/spaui-shim.56720c2d.css"/><link rel="stylesheet" href="https://staticfile.qq.com/creative-market/p414eb1bd203c483983472b4ff97af5a7/c325835bee254909a2cb8bbd968cd7bc/od-icon-shim.31bb3040.css"/><link rel="stylesheet" href="https://staticfile.qq.com/creative-market/p414eb1bd203c483983472b4ff97af5a7/c325835bee254909a2cb8bbd968cd7bc/odc-shim.5d4bcdc3.css"/><link rel="stylesheet" href="https://staticfile.qq.com/creative-market/p414eb1bd203c483983472b4ff97af5a7/c325835bee254909a2cb8bbd968cd7bc/creative-aiTool-shim.4f221e94.css"/><link rel="stylesheet" href="//ad.qq.com/ai/doc/ai-customer/assets/sdk.css"/><script type="module" crossorigin src="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/index-BO8jDsVm.js"></script><link rel="modulepreload" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/moment-DPrpf9vT.js"><link rel="modulepreload" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/third-part-libs-CGDuPUqH.js"><link rel="modulepreload" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/recoil-DWodj3jI.js"><link rel="modulepreload" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/index-CZUF-Lv2.js"><link rel="stylesheet" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/third-part-libs-CCalOiej.css"><link rel="stylesheet" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/tacc-BEHBV2VJ.css"><link rel="stylesheet" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/ms-ui-T0nIFytT.css"><link rel="stylesheet" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/creative-ms-CoYA4ekW.css"><link rel="stylesheet" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/creative-ai-BNC_be5_.css"><link rel="stylesheet" crossorigin href="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/index-PbnKnsoE.css"><script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script><script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script></head><body class="theme" data-legacy-scope><div id="root"></div><script src="//staticfile.qq.com/creative-market/p424f4eb9b7c748928f4d5e7f7a9e60a7/latest/react.production-18.2.0.min.js"></script><script src="//staticfile.qq.com/creative-market/p424f4eb9b7c748928f4d5e7f7a9e60a7/latest/react-dom.production-18.2.0.min.js"></script><script src="//public.gdtimg.com/static/onex/lib/od-icon/0.0.51/od-icon.min.js?max_age=31536000"></script><script src="//public.gdtimg.com/static/onex/lib/odc/1.0.190/odc.min.js?max_age=31536000"></script><script src="//public.gdtimg.com/static/onex/lib/spaui-components/spaui/3.0.333-beta.0/spaui.min.js?max_age=31536000"></script><script src="//qzonestyle.gdtimg.com/gdt_ui_proj/dist/creative-center/js/echarts.min.js"></script><script src="//staticfile.qq.com/creative-market/p15d0a5f5e0754a75bf77a52973f8c438/latest/settings.js"></script><script src="//cdn.market.creative.qq.com/lib/wasm_exec.js"></script><script src="//i.gtimg.cn/qzone/biz/gdt/lib/lodash-4.17.3/lodash.min.js?max_age=31536000"></script><script src="//public.gdtimg.com/static/onex/lib/adpreview-1.0.0/index.js"></script><script src="//res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script><script src="https://ad.qq.com/ai/doc/ai-customer/assets/sdk.js" defer="defer"></script><script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script nomodule crossorigin id="vite-legacy-polyfill" src="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/polyfills-legacy-C-c0k5Qs.js"></script><script nomodule crossorigin id="vite-legacy-entry" data-src="https://staticfile.qq.com/ams-aigc/muse_platform/latest/assets/index-legacy-DlMZLnsK.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script></body></html>

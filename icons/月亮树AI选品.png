@@ -1,0 +1,44 @@
+<!doctype html><html lang="zh"><head><meta charset="UTF-8"/><link rel="icon" type="image/svg+xml" href="https://img.moonstatistics.com/web-public/admin/dist/ico.png"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>月亮树跨境-亚马逊选品终身免费，让跨境电商数据更快.更准.更有价值</title><meta name="keywords" content="月亮树, 月亮树跨境,亚马逊选品,免费选品工具, 亚马逊第三方软件, 亚马逊大数据选品, 亚马逊运营工具, 跨境电商, 亚马逊采集"><meta name="description" content="月亮树跨境是一家专业的跨境电商大数据分析公司，基于大数据和人工智能技术，帮助亚马逊卖家精准查询产品的销量，发现蓝海市场，打造潜力爆款。我们的团队由来自跨境电商行业的专业人士和大数据专家组成，致力于为客户提供严谨、准确、更具价值的大数据解决方案。通过亚马逊、eBay、Temu、Shopee等跨境电商平台的大数据采集、分析、建模，提供大数据选品软件、电商行业数据分析报告、电商整体大数据解决方案等产品与服务，帮助客户更清晰地了解自身行业情况和市场趋势，从而做出更高效科学的决策。"><meta name="baidu-site-verification" content="codeva-9hKzSZEm1m"/><script>window.Version = "1.0.4";
+        function compareVersions(version1, version2) {
+	        const v1 = version1.split('.').map(Number);
+	        const v2 = version2.split('.').map(Number);
+
+	        for (let i = 0; i < Math.max(v1.length, v2.length); i++) {
+		        const num1 = v1[i] || 0; // 如果v1[i]不存在，则默认为0
+		        const num2 = v2[i] || 0; // 如果v2[i]不存在，则默认为0
+
+		        if (num1 < num2) {
+			        return -1; // version1 小于 version2
+		        } else if (num1 > num2) {
+			        return 1; // version1 大于 version2
+		        }
+	        }
+
+	        return 0; // 版本号相等
+        }
+		window.compareVersions = compareVersions</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-HP4PVV7ESC"></script><script src="https://img.moonstatistics.com/web-public/admin/dist/UTIF.js"></script><script>window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+
+		gtag('config', 'G-HP4PVV7ESC');</script><script>(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?d3fe78f825d10d53e00e8204eca50da7";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();</script><script>(function (w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start':
+				new Date().getTime(), event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src =
+			'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-TTL7K7N');</script><script type="module" crossorigin src="https://img.moonstatistics.com/web-public/admin/dist/assets/index-DvKbqNlB.js"></script><link rel="modulepreload" crossorigin href="https://img.moonstatistics.com/web-public/admin/dist/assets/runtime-dom.esm-bundler-DdGlNyZa.js"><link rel="stylesheet" crossorigin href="https://img.moonstatistics.com/web-public/admin/dist/assets/index-DyYLfYRc.css"></head><body><div id="app"></div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTL7K7N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript></body></html>

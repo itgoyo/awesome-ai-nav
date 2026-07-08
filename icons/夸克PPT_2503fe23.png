@@ -1,0 +1,74 @@
+
+<html><head><meta charSet="utf-8"/><meta name="ut-on"/><meta name="multiple-page"/><meta name="nightmode" content="disable"/><meta name="exposure-on"/><meta name="wpk-bid" content="ai-tpl-734"/><meta name="wpk-rel" content="0.1.138-er:0-er:AB|shortcut_key=2" /><meta name="wpk-sessid" content="7160172217834817979128409e_7160172217834817979128409e" /><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,viewport-fit=cover"/><link rel="shortcut icon" href="//image.uc.cn/s/uae/g/61/qk_aippt/aippt-favicon.png" type="image/x-icon"/><meta name="description" content="输入主题/上传文档，智能生成大纲+匹配精美模板"/><meta property="og:image" content="https://image.uc.cn/s/uae/g/3n/ppt-editor/ppt-images/quarkPPT.jpg"/><title>夸克PPT</title><link rel="stylesheet" href="https://blm.sm.cn/prod/bloom/qk-ai-ppt/client/static/css/home_styles.5929fe009e65c000268a.css"/><link rel="stylesheet" href="https://blm.sm.cn/prod/bloom/qk-ai-ppt/client/static/css/home_styles.5929fe009e65c000268a.css"/><link rel="stylesheet" href="https://blm.sm.cn/prod/bloom/qk-ai-ppt/client/static/css/m-home_styles.0cb643e05b20f9f6579a.css"/><script>window.sm = {
+              PARAM: {
+                log_type: 'ut',
+                log: {
+                  prefix: 'Page',
+                  a: "a2s0k",
+                  ev_ct: "aippt_creator"
+                }
+              }
+            }</script><script>
+          window._er_abTest = {"shortcut_key":"2"};
+        </script></head><body><div id="root"></div><script>
+            function getLastestAsyncSSRCache() {
+                let result = null;
+                const initVersion = "0.1.138";
+                const version = initVersion.split('-')[0];
+                const keyBiz = 'compassAsyncSSR_AIPPT';
+                const keyPrefix = keyBiz + '_' + version;
+                for (let i = 0; i < localStorage.length; i++) {
+                  const localKey = localStorage.key(i);
+                  if (localKey.indexOf(keyBiz) === 0) {
+                    if (localKey.indexOf(keyPrefix) === 0) {
+                      const cache = localStorage.getItem(localKey);
+                      try {
+                        const cacheObj = JSON.parse(cache);
+                        result = cacheObj;
+                      } catch {
+                        localStorage.removeItem(localKey);
+                      }
+                    } else {
+                      localStorage.removeItem(localKey);
+                    }
+                  }
+                }
+                if (result) {
+                  return result.html;
+                }
+                return null;
+              }
+
+              const mHeader = document.getElementById('mhome-header');
+              if(location.href.indexOf('/m-home') > -1 && !mHeader) {
+                let needRefresh = 0;
+
+                const hasKp = localStorage.getItem('hasKp');
+
+                if (hasKp === null) {
+                  needRefresh = 1;
+                  localStorage.setItem('hasKp', 'false');
+                } else {
+                  const currentHasKp = 'false';
+                  if (hasKp !== currentHasKp) {
+                    needRefresh = 1;
+                    localStorage.setItem('hasKp', 'false');
+                  }
+                }
+
+                window.__NeedRefresh = needRefresh;
+
+                const rootContainer = document.getElementById('root');
+                const starTime = Date.now();
+                const cachedHtml = getLastestAsyncSSRCache();
+
+                if (cachedHtml && rootContainer && needRefresh === 0) {
+                  console.log('使用并行SSR缓存');
+                  rootContainer.innerHTML = cachedHtml;
+                  window.__HasInJectHTML = true;
+                  console.log('并行SSR缓存上屏执行耗时', Date.now() - starTime);
+                }
+              }
+            </script><script>window.__itrace_conf={bid:"ai-tpl-734",rel:"0.1.138",plugins:["jserror","interface","resource","blank",{id:"perf",enableLCP:!0}]};</script><script>window.__VERSION='0.1.138';window.ENV_TYPE = "prod"; window.__INITIAL_PROPS__ = {"version":"1.0.0","routeConfig":{},"isOfflinePackage":"","renderType":"CSR"}</script><script src="https://g.alicdn.com/woodpeckerx/itrace-next/??itrace-jserror.iife.js,itrace-interface.iife.js,itrace-perf.iife.js,itrace-resource.iife.js,itrace-blank.iife.js,itrace.iife.js"></script><script src="https://cdn.sm.cn/static/23/04/25/3cde607913ae667784e86b8506c262e8.js"></script><script src="https://cdn.sm.cn/static/23/04/25/e77c34b82e56c058c308b9f602b8b926.js"></script><script src="https://blm.sm.cn/prod/bloom/qk-ai-ppt/client/static/js/home.7b2e60fefeb007df4442.js"></script><script>if (window?.QK_THEME_TYPE === 'night') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }</script></body></html>

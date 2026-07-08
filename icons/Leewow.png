@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,viewport-fit=cover,user-scalable=no"
+		/>
+		<meta name="referrer" content="origin-when-cross-origin" />
+		<!-- 手机浏览器状态栏颜色 -->
+		<meta name="theme-color" content="#000000" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<title>Leewow: The World's First Product Creation Agent - Idea to Physical Product in 30 Seconds</title>
+		<meta
+			name="description"
+			content="Leewow is the world's first Product Creation Agent. Describe any idea, and AI handles design, manufacturing, and global delivery. From concept to physical product in 30 seconds."
+		/>
+		<meta
+			name="keywords"
+			content="Product Creation Agent, Physical AI Agent, Idea to Physical Product, AI Custom Merchandise, On-Demand Manufacturing AI"
+		/>
+		<!-- CDN preconnect -->
+		<link
+			rel="preconnect"
+			href="https://diy-picture-1312527118.cos.accelerate.myqcloud.com"
+			crossorigin
+		/>
+		<link rel="dns-prefetch" href="https://diy-picture-1312527118.cos.accelerate.myqcloud.com" />
+		<link rel="canonical" href="https://leewow.com/" />
+		<meta property="og:title" content="Leewow - The World's First Product Creation Agent" />
+		<meta
+			property="og:description"
+			content="AI that doesn't stop at the screen. Leewow turns any idea into a real, shippable physical product in 30 seconds."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://leewow.com/" />
+		<meta property="og:image" content="https://leewow.com/og/product-creation-agent.jpg" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Leewow - The World's First Product Creation Agent" />
+		<meta
+			name="twitter:description"
+			content="AI that doesn't stop at the screen. Leewow turns any idea into a real, shippable physical product in 30 seconds."
+		/>
+		<meta name="twitter:image" content="https://leewow.com/og/product-creation-agent.jpg" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/os-leewow.xml" title="Leewow">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="48x48" href="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/favicon.png" />
+		<link rel="icon" type="image/svg+xml" href="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/favicon.svg" />
+		<link rel="icon" href="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/favicon.ico" />
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebPage",
+						"@id": "https://leewow.com/#webpage",
+						"url": "https://leewow.com/",
+						"name": "Leewow: The World's First Product Creation Agent - Idea to Physical Product in 30 Seconds",
+						"description": "Leewow is the world's first Product Creation Agent. Describe any idea, and AI handles design, manufacturing, and global delivery."
+					},
+					{
+						"@type": "SoftwareApplication",
+						"@id": "https://leewow.com/#app",
+						"name": "Leewow",
+						"description": "The world's first Product Creation Agent. Turn any idea into a physical product in 30 seconds.",
+						"applicationCategory": "BusinessApplication",
+						"operatingSystem": "Web",
+						"url": "https://leewow.com/",
+						"offers": {
+							"@type": "Offer",
+							"price": "0",
+							"priceCurrency": "USD",
+							"description": "Free to generate designs"
+						},
+						"featureList": [
+							"AI-powered design generation",
+							"On-demand manufacturing",
+							"Global shipping",
+							"100+ product types",
+							"No design skills required"
+						]
+					},
+					{
+						"@type": "Organization",
+						"@id": "https://leewow.com/#organization",
+						"name": "Leewow",
+						"url": "https://leewow.com",
+						"logo": "https://leewow.com/favicon.svg"
+					}
+				]
+			}
+		</script>
+		<script async type="text/javascript" src="https://accounts.google.com/gsi/client"></script>
+		<style>
+			#app-loading {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: #fff;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				z-index: 9999;
+			}
+			/* ldrs Grid 效果，与 FullscreenLoading 一致 */
+			.app-loading-grid {
+				--uib-size: 60px;
+				--uib-color: black;
+				--uib-speed: 1.5s;
+				flex-shrink: 0;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				height: calc(var(--uib-size) * 0.8);
+				width: var(--uib-size);
+			}
+			.app-loading-grid-inner {
+				--uib-dot-size: calc(var(--uib-size) * 0.1);
+				position: relative;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				height: calc(var(--uib-size) * 0.64);
+				width: calc(var(--uib-size) * 0.64);
+			}
+			.app-loading-grid-dot {
+				--uib-scale: 1;
+				position: absolute;
+				bottom: calc(var(--uib-bottom) + var(--uib-dot-size) / 2);
+				right: calc(var(--uib-right) + var(--uib-dot-size) / 2);
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				height: var(--uib-dot-size);
+				width: var(--uib-dot-size);
+				animation: app-loading-grid-jump var(--uib-speed) ease-in-out infinite;
+				opacity: var(--uib-scale);
+				will-change: transform;
+				backface-visibility: hidden;
+			}
+			.app-loading-grid-dot::before {
+				content: "";
+				height: 100%;
+				width: 100%;
+				background-color: var(--uib-color);
+				border-radius: 50%;
+				transform: scale(var(--uib-scale));
+			}
+			.app-loading-grid-dot:nth-child(1) { --uib-bottom: 24%; --uib-right: -35%; animation-delay: calc(var(--uib-speed) * -0.48); }
+			.app-loading-grid-dot:nth-child(2) { --uib-bottom: 16%; --uib-right: -6%; animation-delay: calc(var(--uib-speed) * -0.4); }
+			.app-loading-grid-dot:nth-child(3) { --uib-bottom: 8%; --uib-right: 23%; animation-delay: calc(var(--uib-speed) * -0.32); --uib-scale: 0.98; }
+			.app-loading-grid-dot:nth-child(4) { --uib-bottom: -1%; --uib-right: 51%; animation-delay: calc(var(--uib-speed) * -0.24); }
+			.app-loading-grid-dot:nth-child(5) { --uib-bottom: 38%; --uib-right: -17.5%; animation-delay: calc(var(--uib-speed) * -0.4); --uib-scale: 0.9; }
+			.app-loading-grid-dot:nth-child(6) { --uib-bottom: 30%; --uib-right: 10%; animation-delay: calc(var(--uib-speed) * -0.32); --uib-scale: 0.92; }
+			.app-loading-grid-dot:nth-child(7) { --uib-bottom: 22%; --uib-right: 39%; animation-delay: calc(var(--uib-speed) * -0.24); --uib-scale: 0.94; }
+			.app-loading-grid-dot:nth-child(8) { --uib-bottom: 14%; --uib-right: 67%; animation-delay: calc(var(--uib-speed) * -0.16); --uib-scale: 0.96; }
+			.app-loading-grid-dot:nth-child(9) { --uib-bottom: 53%; --uib-right: -0.8%; animation-delay: calc(var(--uib-speed) * -0.32); --uib-scale: 0.86; }
+			.app-loading-grid-dot:nth-child(10) { --uib-bottom: 44.5%; --uib-right: 27%; animation-delay: calc(var(--uib-speed) * -0.24); --uib-scale: 0.88; }
+			.app-loading-grid-dot:nth-child(11) { --uib-bottom: 36%; --uib-right: 55.7%; animation-delay: calc(var(--uib-speed) * -0.16); --uib-scale: 0.9; }
+			.app-loading-grid-dot:nth-child(12) { --uib-bottom: 28.7%; --uib-right: 84.3%; animation-delay: calc(var(--uib-speed) * -0.08); --uib-scale: 0.92; }
+			.app-loading-grid-dot:nth-child(13) { --uib-bottom: 66.8%; --uib-right: 15%; animation-delay: calc(var(--uib-speed) * -0.24); --uib-scale: 0.82; }
+			.app-loading-grid-dot:nth-child(14) { --uib-bottom: 58.8%; --uib-right: 43%; animation-delay: calc(var(--uib-speed) * -0.16); --uib-scale: 0.84; }
+			.app-loading-grid-dot:nth-child(15) { --uib-bottom: 50%; --uib-right: 72%; animation-delay: calc(var(--uib-speed) * -0.08); --uib-scale: 0.86; }
+			.app-loading-grid-dot:nth-child(16) { --uib-bottom: 42%; --uib-right: 100%; animation-delay: 0s; --uib-scale: 0.88; }
+			@keyframes app-loading-grid-jump {
+				0%, 100% { transform: translateY(120%); }
+				50% { transform: translateY(-120%); }
+			}
+		</style>
+		
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17806160003"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'AW-17806160003');
+		</script>
+		
+	<script defer src="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/static/js/lib-react.c309501d.js"></script><script defer src="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/static/js/lib-router.f6a4b853.js"></script><script defer src="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/static/js/lib-axios.5258f75a.js"></script><script defer src="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/static/js/969.8e3d44c3.js"></script><script defer src="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/static/js/index.b161f202.js"></script><link href="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/static/css/969.06c550dc.css" rel="stylesheet" media="print" onload="this.media='all'"><link href="https://diy-picture-1312527118.cos.accelerate.myqcloud.com/h5-public-assets/static/css/index.c580cfd8.css" rel="stylesheet" media="print" onload="this.media='all'"></head>
+	<body>
+		<div id="app-loading">
+			<div class="app-loading-grid">
+				<div class="app-loading-grid-inner">
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+					<div class="app-loading-grid-dot"></div>
+				</div>
+			</div>
+		</div>
+		<div id="root"></div>
+	</body>
+</html>

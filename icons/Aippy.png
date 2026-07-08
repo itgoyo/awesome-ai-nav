@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Aippy</title>
+    <meta
+      name="google-site-verification"
+      content="jZMnkiQSg7MwRFre9ZklQTL_AFwCu2TdyNV62dw_Uvs"
+    />
+    <meta charset="UTF-8" />
+
+    <meta
+      name="keywords"
+      content="aippy, creative platform, interactive content creation, mobile creativity app, touch-based interface, creative community, digital art and design, social content platform, vibe coding, graphic design tools, fun interactive games, creative expression, visual design studio, mobile game development, creative coding playground, design collaboration, interactive digital toys, user-friendly creative software"
+    />
+
+    <meta
+      name="description"
+      content="Aippy is a vibrant space to build, share, and explore interactive creations with AI. Simply describe your idea in natural language and watch it come alive, no coding required. From playful mini-games to interactive art and creative tools, Aippy makes it easy to create and share directly in your browser or app."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@aippyai" />
+    <meta name="twitter:title" content="aippy" />
+    <meta name="twitter:description" content="Aippy is a vibrant space to build, share, and explore interactive creations with AI. Simply describe your idea in natural language and watch it come alive, no coding required. From playful mini-games to interactive art and creative tools, Aippy makes it easy to create and share directly in your browser or app." />
+    <meta name="twitter:image" content="https://cdn.aippy.ai/asset/fae862cfa1264994acbb336035fc0c3f.png" />
+
+    <meta name="og:type" content="" />
+    <meta name="og:site_name" content="@aippyai" />
+    <meta name="og:title" content="aippy" />
+    <meta name="og:description" content="Aippy is a vibrant space to build, share, and explore interactive creations with AI. Simply describe your idea in natural language and watch it come alive, no coding required. From playful mini-games to interactive art and creative tools, Aippy makes it easy to create and share directly in your browser or app." />
+    <meta name="og:image" content="https://cdn.aippy.ai/asset/fae862cfa1264994acbb336035fc0c3f.png" />
+    <!-- <link rel="manifest" href="/manifest.json" /> -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/fav-logo.svg"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <script type="module" crossorigin src="/assets/js/index-DRl0dMtU.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/js/react-vendor-BUOUJnEk.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/ui-vendor-DYfaBLHL.js">
+    <link rel="stylesheet" crossorigin href="/assets/css/index-HHG8pMh9.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+  <body>
+    <div id="root"></div>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LD0Z19ZH4P"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-LD0Z19ZH4P');
+    </script>
+  </body>
+</html>

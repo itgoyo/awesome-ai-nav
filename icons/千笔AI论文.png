@@ -1,0 +1,51 @@
+<!doctype html><html lang="zh-cmn-Hans"><head><script>self["MonacoEnvironment"] = (function (paths) {
+          return {
+            globalAPI: false,
+            getWorkerUrl : function (moduleId, label) {
+              var result =  paths[label];
+              if (/^((http:)|(https:)|(file:)|(\/\/))/.test(result)) {
+                var currentUrl = String(window.location);
+                var currentOrigin = currentUrl.substr(0, currentUrl.length - window.location.hash.length - window.location.search.length - window.location.pathname.length);
+                if (result.substring(0, currentOrigin.length) !== currentOrigin) {
+                  var js = '/*' + label + '*/importScripts("' + result + '");';
+                  var blob = new Blob([js], { type: 'application/javascript' });
+                  return URL.createObjectURL(blob);
+                }
+              }
+              return result;
+            }
+          };
+        })({
+  "editorWorkerService": "https://aijar-www-oss.yyjjtech.com/monacoeditorwork/editor.worker.bundle.js",
+  "typescript": "https://aijar-www-oss.yyjjtech.com/monacoeditorwork/ts.worker.bundle.js",
+  "json": "https://aijar-www-oss.yyjjtech.com/monacoeditorwork/json.worker.bundle.js",
+  "javascript": "https://aijar-www-oss.yyjjtech.com/monacoeditorwork/ts.worker.bundle.js"
+});</script><meta charset="UTF-8"/><link rel="icon" type="image/svg+xml" href="https://qianbi-content.qianbiai.com/qianbi_img/qianbi_logo_128.png"/><meta content="yes" name="apple-mobile-web-app-capable"/><link rel="apple-touch-icon" href="https://qianbi-content.qianbiai.com/qianbi_img/qianbi_logo_128.png"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover"/><title>千笔写作 - AI论文写作指导平台</title><meta name="keywords" content="ai论文,ai写论文,ai论文降重,论文推荐ai,ai智能论文,AI智能写作,ai写作,论文写作平台,论文平台,量子喵"/><meta name="description" content="千笔写作是AI论文写作平台，10分钟产出3万字，提供真实网络数据、图、表、公式、代码，不限次2000字3级大纲，附带ppt、开题报告、任务书、40篇真实参考文献。"/><link rel="canonical" href="https://www.qianbixiezuo.com"><meta name="baidu-site-verification" content="codeva-pDKEzHdBLI"/><meta name="msvalidate.01" content="F3F1BB18FC80F093A4633A21CC61398C"/><meta name="360-site-verification" content="c1a16620380d76715e31daa73e96338d"/><meta property="og:type" content="website"/><meta property="og:url" content="https://www.qianbixiezuo.com"/><meta property="og:title" content="千笔写作 - AI论文写作指导平台"/><meta property="og:description" content="千笔写作是AI论文写作平台，10分钟产出3万字，提供真实网络数据、图、表、公式、代码，不限次2000字3级大纲，附带ppt、开题报告、任务书、40篇真实参考文献。"/><meta property="og:image" content="https://qianbi-content.qianbiai.com/qianbi_img/qianbi_logo_128.png"/><meta property="og:site_name" content="千笔写作"/><script defer="defer" src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script><script defer="defer" src="https://g.alicdn.com/sls/sls-js-sdk/0.3.5/web-track-browser.js"></script><script defer="defer" src="https://g.alicdn.com/IMM/office-js/1.1.19/aliyun-web-office-sdk.min.js"></script><script>var tracker;
+      function handleError(e) {
+        if (window.SLS_Tracker) {
+          if (!tracker) {
+            tracker = new SLS_Tracker({
+              host: 'cn-beijing.log.aliyuncs.com',
+              project: 'aijar',
+              logstore: 'aijar-fe',
+            })
+          }
+          tracker.sendImmediate({
+            log_type: 'index_error',
+            ua: window.navigator.userAgent,
+            url: window.location.href,
+            referrer: document.referrer || 'none',
+            error: {
+              filename: e.filename,
+              colno: e.colno,
+              lineno: e.lineno,
+              message: e.message,
+              stack: e.error ? e.error.stack : null,
+              tagName: e.target.tagName,
+              targetUrl: e.target.src || e.target.href,
+              className: e.target.className,
+            }
+          })
+        }
+      };
+      window.addEventListener('error', handleError, true);</script><script>var _hmt = _hmt || [];(function () {var hm = document.createElement('script');hm.src = 'https://hm.baidu.com/hm.js?584dc78f7d7f8825602823d267b9b84d';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(hm, s);})();</script><script type="module" crossorigin src="https://aijar-www-oss.yyjjtech.com/assets/index-129492b6.js"></script><link rel="stylesheet" href="https://aijar-www-oss.yyjjtech.com/assets/index-f05a3b15.css"></head><body class="dark:bg-black"><div id="app"><h1 class="title seo">千笔写作 - AI论文写作与降AI、降重平台</h1><ul class="introduction seo"><li><a href="https://www.qianbixiezuo.com/article/271197-what-ai-paper-writing-tools-truly-understand-academic-language-rather-than-randomly-piling-up">有哪些AI论文写作工具是真的懂学术语言，而不是胡乱堆砌？</a></li><li><a href="https://www.qianbixiezuo.com/article/271228-shorter-path-2026-top-ai-writing-tools">少走弯路：盘点2026年全民喜爱的AI论文写作工具</a></li><li><a href="https://www.qianbixiezuo.com/article/271259-2026-ai-writing-assistant-software-recommendations">2026AI写作辅助软件推荐</a></li><li><a href="https://www.qianbixiezuo.com/article/271290-Shocked-input-keywords-these-ai-writing-assist-website-generate-rich-graduation-thesis">惊了！输入关键词，这几款AI写作辅助网站就能生成图文并茂的毕业论文</a></li><li><a href="https://www.qianbixiezuo.com/article/271321-ai-paper-generator-reliable-try-three-tools-surprising-results">ai论文生成靠谱吗？我用3款AI论文写作工具各生成了一篇，结果出乎意料</a></li><li class="introduction seo">千笔写作是AI论文写作与降AI、降重平台，10分钟产出3万字，提供真实网络数据、图、表、公式、代码，不限次2000字3级大纲，40篇真实参考文献。AI率、重复率不达标就退费。</li></ul><style>body,html{margin:0}.loading-wrap{display:flex;justify-content:center;align-items:center;height:100vh;color:#666}.loading-wrap img{animation:rotating 1s infinite linear}.seo{position:fixed;width:0;height:0;top:-10000px;color:#fff;margin:0;padding:0;opacity:0}@keyframes rotating{100%{transform:rotate(360deg)}}</style><div class="loading-wrap"><img src="https://qianbi-content.qianbiai.com/qianbi_img/qianbi_logo_128.png" width="20" height="20" style="margin-right:5px"/> 疯狂装填中...</div></div><style>.footer-link{position:absolute;bottom:10px;padding:0 2rem;font-size:12px;color:#6b7280;opacity:0;height:0;overflow:hidden}</style><div class="footer-link">热门链接：<a href="/" target="_blank">AI论文平台</a> | <a href="/" target="_blank">AI论文网站</a> | <a href="/" target="_blank">AI智能论文</a> | <a href="/" target="_blank">AI写毕业论文</a> | <a href="/" target="_blank">AI自动写论文</a> <span style="margin-left:10px">站点地图：</span><a href="/sitemap.xml" target="_blank">XML地图</a></div></body></html>

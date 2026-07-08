@@ -1,0 +1,130 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="google" content="notranslate"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/><meta name="format-detection" content="telephone=no"/><meta name="color-scheme" content="light"/><meta property="og:type" content="article"/><meta property="og:site_name" content="LongCat AI"/><meta property="og:title" content="LongCat AI"/><meta property="og:description" content="我分享了【LongCat AI】，快来看吧！"/><meta property="og:image" content="https://s3plus.meituan.net/aigc-media-resources/longcat/home-cat.png"/><meta property="og:image:width" content="600"/><meta property="og:image:height" content="600"/><link rel="icon" href="https://s3plus.meituan.net/aigc-media-resources/longcat/yeqian-logo.svg"/><title translate="no">LongCat AI</title><script>'use strict';
+      !(function (u, d) {
+        var t = 'owl',
+          e = '_Owl_',
+          n = 'Owl',
+          r = 'start',
+          c = 'error',
+          p = 'on' + c,
+          f = u[p],
+          h = 'addEventListener',
+          l = 'attachEvent',
+          v = 'isReady',
+          b = 'dataSet';
+        ((u[t] =
+          u[t] ||
+          function () {
+            try {
+              u[t].q = u[t].q || [];
+              var e = [].slice.call(arguments);
+              e[0] === r ? (u[n] && u[n][r] ? u[n][r](e[1]) : u[t].q.unshift(e)) : u[t].q.push(e);
+            } catch (e) {}
+          }),
+          (u[e] = u[e] || {
+            preTasks: [],
+            pageData: [],
+            use: function (e, t) {
+              this[v] ? u[n][e](t) : this.preTasks.push({ api: e, data: [t] });
+            },
+            run: function (t) {
+              if (!(t = this).runned) {
+                ((t.runned = !0),
+                  (t[b] = []),
+                  (u[p] = function () {
+                    (t[v] || t[b].push({ type: 'jsError', data: arguments }), f && f.apply(u, arguments));
+                  }),
+                  u[h] &&
+                    u[h]('unhandledrejection', function (e) {
+                      t[v] || t[b].push({ type: 'jsError', data: [e] });
+                    }));
+                var e = function (e) {
+                  !t[v] && e && t[b].push({ type: 'resError', data: [e] });
+                };
+                u[h] ? u[h](c, e, !0) : u[l] && u[l](p, e);
+                var n = 'MutationObserver',
+                  r = u[n] || u['WebKit' + n] || u['Moz' + n],
+                  a = u.performance || u.WebKitPerformance,
+                  s = 'disableMutaObserver';
+                if (r && a && a.now)
+                  try {
+                    var i = -1,
+                      o = u.navigator.userAgent;
+                    (-1 < o.indexOf('compatible') && -1 < o.indexOf('MSIE')
+                      ? (new RegExp('MSIE (\\d+\\.\\d+);').test(o), (i = parseFloat(RegExp.$1)))
+                      : -1 < o.indexOf('Trident') && -1 < o.indexOf('rv:11.0') && (i = 11),
+                      -1 !== i && i <= 11
+                        ? (t[s] = !0)
+                        : (t.observer = new r(function (e) {
+                            t.pageData.push({ mutations: e, startTime: a.now() });
+                          })).observe(d, { childList: !0, subtree: !0 }));
+                  } catch (e) {}
+                else t[s] = !0;
+              }
+            },
+          }),
+          u[e].runned || u[e].run());
+      })(window, document);</script><script src="https://msp.meituan.net/h5guard/H5guard.js"></script><script>// 香港、欧洲SDK 推荐进行初始region设置，否则为默认region,香港默认region "HK" 欧洲默认region "MG"。
+      // H5guard.setRegion('HK');
+      // 初始化是可选，可以不进行初始化。初始化mtgsig（完整版）在header中携带，否则mtgsig（简略版）在url上携带。URL携带的mtgsig安全能力相对较弱。
+      H5guard.init({
+        xhrHook: true, //xhrHook开关，与domains一起使用，开启后默认对domains里面的xhr请求加签
+        fetchHook: true, //fetchHook开关，与domains一起使用，开启后默认对domains里面的xhr请求加签
+        domains: ['longcat.chat', 'longcat.ai', 'longcat.ai.test.sankuai.com'], //此列表中的域名的接口会在header中携带mtgsig
+        openId: '', //如果当前为wx小程序环境中的h5，传入openId，有助于描述设备画像
+        geo: false, //如果当前页面有位置权限，则打开开关，H5guard会去收集地理位置信息，如果为false,地理位置默认为“”空字符串
+      });</script><link rel="dns-prefetch" href="//lx.meituan.net"/><link rel="dns-prefetch" href="//lx1.meituan.net"/><link rel="dns-prefetch" href="//plx.meituan.com"/><script>(function () {
+        var userAgent = navigator.userAgent;
+        var isMobileDevice = /iPhone|iPad|iPod|Android|Mobile|BlackBerry|webOS|Windows Phone/i.test(userAgent);
+        function updateHtmlClasses() {
+          var htmlElement = document.documentElement;
+          htmlElement.classList.remove('mobile', 'is-ios', 'is-iphone', 'is-android');
+          if (isMobileDevice) {
+            htmlElement.classList.add('mobile');
+          }
+          if (/iPhone/.test(userAgent)) {
+            htmlElement.classList.add('is-ios', 'is-iphone');
+          } else if (/iPad|iPod/.test(userAgent)) {
+            htmlElement.classList.add('is-ios');
+          } else if (/Android/.test(userAgent)) {
+            htmlElement.classList.add('is-android');
+          }
+        }
+        updateHtmlClasses();
+        var resizeTimer;
+        window.addEventListener('resize', function () {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(updateHtmlClasses, 100);
+        });
+        window.updateHtmlClasses = updateHtmlClasses;
+      })();</script><script>// 灵犀自执行函数代码开始（以下这部分不能动）
+      !(function (win, doc, ns) {
+        win['_MeiTuanALogObject'] = ns;
+        if (!win[ns]) {
+          var _LX = function () {
+            var t = function () {
+              var inst = function () {
+                inst.q.push([arguments, +new Date()]);
+              };
+              inst.q = [];
+              t.q.push([arguments, inst]);
+              return inst;
+            };
+            t.q = [];
+            t.t = +new Date();
+            _LX.q.push([arguments, t]);
+            return t;
+          };
+          _LX.q = _LX.q || [];
+          _LX.l = +new Date();
+          win[ns] = _LX;
+        }
+      })(window, document, 'LXAnalytics');
+      // 灵犀种子代码结束（以上这部分不能动)
+      // 灵犀初始化配置
+      LXAnalytics('config', {
+        defaultCategory: 'smartassistant', // 页面默认通道
+        appName: 'longcat-web', // 页面应用名
+        isDev: 'production' !== 'production',
+        onVisibilityChangeAutoPV: false,
+        onWindowFocusAutoPV: false,
+      });</script><script src="//lx.meituan.net/lx.5.min.js" async></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/83053.3d86c641e178341261a0.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/4580.f0c3af92f5e1ecad272c.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/32503.c84f4a29dfe5c548614b.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/30963.74a18e595b70c4db7473.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/24781.c76ce8b008640f5da4b3.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/42201.dbb529a63bc392d8a87b.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/80663.fafa3198affb17ef393f.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/19199.04cfc899d740d199c3b4.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/46294.93e77cd0b64f25b66aee.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/34797.b8a0c164a4afd23bd91b.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/54912.81450614e417d31db5b9.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/86480.382bfce5e766b316af17.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/19373.fd2440215727caca964d.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/85217.2393aff762dd7cfc010c.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/56117.335cc5fd064cb90e1422.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/1864.ecbb2aaebfb93e76b711.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/index-43dd7041.2e9c294a8c8804d5dc57.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/index-31743c5a.cc74b571ec0605157360.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/index-0a037d97.1506c5d7cd75aac54cf9.js"></script><script defer="defer" src="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/js/index-6b882012.95d49f909409328b647f.js"></script><link href="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/css/79585.0042eb9e5ad958f0178d.css" rel="stylesheet"><link href="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/css/54912.6a8bf253035714120734.css" rel="stylesheet"><link href="//s3.meituan.net/static-prod01/com.sankuai.friday.fe.longcat/css/index-4f064d56.f53c7641b7765969cd16.css" rel="stylesheet"></head><body><div id="app"></div><script crossorigin="anonymous" src="https://s3.meituan.net/mnpm-cdn/@mtfe-mt-apm-web-1.13.2/owl_1.13.2.min.js"></script><script src="//res.wx.qq.com/open/js/jweixin-1.6.0.js"></script></body></html>

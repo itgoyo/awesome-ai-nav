@@ -1,0 +1,534 @@
+<!DOCTYPE html><html><head><script src="https://render.alipay.com/p/yuyan/180020010001264210/4ac4d9cb-async.0c6dda76.js" data-mako="huamei-portal:4ac4d9cb" async="" crossorigin="anonymous"></script><script src="https://render.alipay.com/p/yuyan/180020010001264210/caa67902-async.a2e3c600.js" data-mako="huamei-portal:caa67902" async="" crossorigin="anonymous"></script><link rel="preload" href="https://render.alipay.com/p/yuyan/180020010001264210/caa67902-async.d6d2c094.css" as="style" data-mako="huamei-portal:caa67902"><script type="tern-site-config">{"authType":"custom","mode":"cloud","yuyanId":"180020010201253344","name":"huamei-portal-pub-site","metadata":{"favicon":"","metas":[],"title":""},"monitor":true,"presets":[{"name":"huamei-portal-pub","yuyanId":"180020010001264210","entry":"https://render.alipay.com/p/yuyan/180020010001264210/","version":"latest","env":"PROD","network":"INTERNET","props":{"apps":[],"menusMode":"standard","routes":[]}}],"apps":[],"version":"S09001975660","orchestration":["huamei-portal-pub"],"productCode":"PT202022092101266430","indexAppConfig":{"authType":"antbuservice","metadata":{"title":"蚂上有创意 - 为营销而生的AI创意生成平台","favicon":"https://mdn.alipayobjects.com/portal_ej79tm/afts/file/A*DySKRowgQTkAAAAAAAAAAAAAAQAAAQ"},"appName":"huamei-portal","version":"1.0.0","antdVersion":"5.29.3","bigfishVersion":"4.5.30","yuyanId":"180020010001264210","sprintId":"S090011492137","buildTime":1770341529762,"createTime":"","proxy":{"mode":"cors","PROD":{"/adesignopenbff/api":{"target":"//webgw-internet.alipay.com/180020010001278587/adesignopenbff/","pathRewrite":{"^/adesignopenbff/api":"/api"},"mode":"cors"}}}}}</script><meta charset="utf-8"><meta name="tern-framework-version" content="S090011744268"><script>window.injectInfo = { env: "PROD" };</script><script>window.publicPath = "https://gw.alipayobjects.com/render/p/yuyan/180020010000012660/";</script><script>(function() {
+      if (window.document.documentMode && !window.__POWERED_BY_QIANKUN__) {
+        var winPublicPath = window.publicPath || '/';
+        var publicPathWithoutSlash = winPublicPath.substring(0, winPublicPath.length-1);
+        document.writeln('<script src="'+publicPathWithoutSlash+'/polyfill-97cb56f7.js" crossorigin="anonymous"><\/script>');
+      }
+    })();</script><!-- ternbaseEnv: prod -->
+
+<script>window.__TERN__ = {"ssr":true,"x-ldcid-level":"","env":"PROD","user":{},"netType":"INTERNET","webgw":{"webgwDomain":"webgw-internet.alipay.com"}};</script><script src="https://gw.alipayobjects.com/render/p/yuyan/180020010000012660/main-34e4e700.js" crossorigin="anonymous"></script><script>window.injectInfo = { env: "PROD" };</script><script>window.publicPath = "https://gw.alipayobjects.com/render/p/yuyan/180020010001264210/";</script><script>!function(){var e=window;function n(n){if(e.g_monitor&&e.g_monitor.events){var t=e.g_monitor.events;t.length<20&&t.push(n)}}e.g_monitor=e.g_monitor||{listener:{},events:[]};var r=e.g_monitor.listener;function t(t,n){try{e.addEventListener?e.addEventListener(t,n,!0):e.attachEvent?e.attachEvent("on"+t,n):e[t]=n,r[t]=n}catch(n){console.warn("Tracert 监控事件注册失败："+t,n)}}r.error||t("error",n),r.unhandledrejection||t("unhandledrejection",n)}();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="google-site-verification" content="VKLRa4LhFsowmAKoWYU8ZuN1A5jZ47HFGD3KO3eFb2Q">
+<meta name="baidu-site-verification" content="codeva-KDLkjsZRUD">
+<meta name="description" content="专业的AI营销创意平台，AI帮你轻松搞定Banner设计、商品图优化、海报设计，素材图优化。更有AI创意诊断助手，基于大数据帮你分析高点击率营销素材的秘密，助力商家营销获得高回报。内置海量免费商用素材/模板，一站搞定设计。AIGC功能也超简单，自由对话模式，聊聊天就把创意图做好了！">
+<meta name="keywords" content="AIGC,AI,AI生图,AI设计,Copilot,素材,免费素材,商用素材,模板,免费模板,商用模板,Banner,营销图,商品图,物料,海报,文案,短视频封面,封面设计,广告设计,电商广告,作图,做图,美工,设计,营销,创意,营销创意,电商,商家,抠图,去水印,提升画质,支付宝,支付宝设计,蚂蚁设计,蚂蚁集团">
+<meta property="og:title" content="蚂上有创意 - 为营销而生的AI创意生成平台">
+<meta property="og:site_name" content="蚂上有创意 - 为营销而生的AI创意生成平台">
+<meta property="og:description" content="专业的AI营销创意平台，AI帮你轻松搞定Banner设计、商品图优化、海报设计，素材图优化。更有AI创意诊断助手，基于大数据帮你分析高点击率营销素材的秘密，助力商家营销获得高回报。内置海量免费商用素材/模板，一站搞定设计。AIGC功能也超简单，自由对话模式，聊聊天就把创意图做好了！">
+<meta property="og:image" content="https://mdn.alipayobjects.com/huamei_9ip1jn/afts/img/A*tyd5RKlUt5IAAAAAAAAAAAAADn95AQ/original">
+<meta name="bm_app_id" content="null">
+<meta name="bm_sprint_id" content="S090011492137">
+<meta name="data-aspm" content="a4453">
+<meta name="data-bizType" content="common">
+<link rel="shortcut icon" href="https://mdn.alipayobjects.com/portal_ej79tm/afts/file/A*DySKRowgQTkAAAAAAAAAAAAAAQAAAQ">
+<title>蚂上有创意 - 为营销而生的AI创意生成平台</title>
+<link rel="stylesheet" href="https://gw.alipayobjects.com/render/p/yuyan/180020010001264210/umi.c29ad264.css">
+<script src="https://gw.alipayobjects.com/os/lib/alipay/mars-player/1.1.4/dist/index.js"></script>
+<script src="https://gw.alipayobjects.com/os/lib/wawoff2/2.0.1/build/decompress_binding.js"></script>
+<script charset="utf-8">/* eslint-disable no-var */
+(function () {
+  var resource =
+    'https://gw.alipayobjects.com/render/p/yuyan_npm/@alipay_huamei-components/3.0.4/umd/huamei-components.min.css';
+  fetch(resource).then(function (res) {
+    if (res.status === 404) {
+      const isOffice = window.__TERN__ && window.__TERN__.netType === 'OFFICE';
+      if (isOffice) {
+        location.href = 'https://hosts-police-pre.antgroup-inc.cn/';
+        return;
+      }
+      if (
+        confirm(
+          '您正使用 hosts 访问 CDN，可能导致白屏问题，请清理 hosts 后刷新页面重试。',
+        )
+      ) {
+        location.reload();
+      }
+    }
+  });
+})();
+</script>
+<script charset="utf-8">const global = window;
+if (!global.hasOwnProperty('HuameiComponentsModule')) {
+  const internalValue = {};
+
+  Object.defineProperty(global, 'HuameiComponentsModule', {
+    get: function () {
+      return internalValue;
+    },
+    set: function (newValue) {
+      Object.assign(internalValue, newValue);
+    },
+    configurable: true,
+    enumerable: true,
+  });
+}
+</script>
+<script charset="utf-8"></script>
+<script charset="utf-8">(function () {
+        /* eslint-disable no-var */
+function loadUmd(options) {
+  var editableSvgVersion = options.editableSvgVersion;
+  var huameiComponentsVersion = options.huameiComponentsVersion;
+  var designerEditorVersion = options.designerEditorVersion;
+  var umdModuleInfosKey =
+    options.umdModuleInfosKey || '__hm_umd_module_infos__V2';
+
+  function getUmdUrl(version, pkgName, fileName) {
+    var _version = version.toLowerCase();
+    var isSprint = _version.indexOf('s') === 0;
+    var _pkgName = pkgName.replace(/\//g, '_');
+    var umdRoot = isSprint
+      ? 'https://renderdev.alipay.com/p/yuyan_npm'
+      : 'https://gw.alipayobjects.com/render/p/yuyan_npm';
+    _version = isSprint ? 'dev-' + _version : _version;
+    return umdRoot + '/' + _pkgName + '/' + _version + '/' + fileName;
+  }
+
+  var defaultUmdModuleInfos = {
+    svgjsUMDUrl: getUmdUrl(
+      editableSvgVersion,
+      '@alipay/editable-svg',
+      'dist/svg.umd.js',
+    ),
+    editableSvgUMDUrl: getUmdUrl(
+      editableSvgVersion,
+      '@alipay/editable-svg',
+      'dist/index.umd.js',
+    ),
+    jszipUMDUrl: getUmdUrl(
+      huameiComponentsVersion,
+      '@alipay/huamei-components',
+      'umd/jszip.min.js',
+    ),
+    huameiUtilsUMDUrl: getUmdUrl(
+      huameiComponentsVersion,
+      '@alipay/huamei-components',
+      'umd/huamei-utils.min.js',
+    ),
+    huameiComponentsUMDUrl: getUmdUrl(
+      huameiComponentsVersion,
+      '@alipay/huamei-components',
+      'umd/huamei-components.min.js',
+    ),
+    huameiComponentsCSSUrl: getUmdUrl(
+      huameiComponentsVersion,
+      '@alipay/huamei-components',
+      'umd/huamei-components.min.css',
+    ),
+    designerEditorUMDUrl: getUmdUrl(
+      designerEditorVersion,
+      '@alipay_designer-editor',
+      'umd/designer-editor.min.js',
+    ),
+  };
+
+  function compareSemver(version1, version2) {
+    try {
+      var v1 = version1.split('.');
+      var v2 = version2.split('.');
+
+      // 快速比较主版本号
+      if (v1[0] !== v2[0]) {
+        return v1[0] > v2[0] ? 1 : -1;
+      }
+
+      // 比较次版本号和补丁号
+      for (var i = 1; i < 3; i++) {
+        var num1 = parseInt(v1[i], 10);
+        var num2 = parseInt(v2[i], 10);
+        if (num1 > num2) return 1;
+        if (num1 < num2) return -1;
+      }
+
+      // 检查是否有预发布版本，并进行比较
+      var preRelease1 = version1.match(/-([^-]+)$/);
+      var preRelease2 = version2.match(/-([^-]+)$/);
+
+      if (preRelease1 && preRelease2) {
+        var pre1 = preRelease1[1].split('.').map(function (part) {
+          return isNaN(part) ? part : parseInt(part, 10);
+        });
+        var pre2 = preRelease2[1].split('.').map(function (part) {
+          return isNaN(part) ? part : parseInt(part, 10);
+        });
+
+        for (var i = 0; i < Math.max(pre1.length, pre2.length); i++) {
+          var p1 = pre1[i] || '';
+          var p2 = pre2[i] || '';
+          if (p1 < p2) return -1;
+          if (p1 > p2) return 1;
+        }
+      } else if (preRelease1) {
+        // 如果version1是预发布版本，给予更高的权重
+        return 1;
+      } else if (preRelease2) {
+        // 如果version2是预发布版本，给予更高的权重
+        return -1;
+      }
+
+      // 如果所有比较都相同，返回0
+      return 0;
+    } catch (err) {
+      //
+      return 0;
+    }
+  }
+
+  function extractAndCompareSemver(url1, url2) {
+    var semverRegex = /(\d+\.\d+\.\d+(-[0-9A-Za-z-.]+)?)/;
+
+    var match1 = url1.match(semverRegex);
+    var match2 = url2.match(semverRegex);
+
+    if (match1 && match2) {
+      var version1 = match1[1];
+      var version2 = match2[1];
+      return compareSemver(version1, version2);
+    }
+    if (!match1) {
+      return 1;
+    }
+    if (!match2) {
+      return -1;
+    }
+    return 0;
+  }
+
+  function detectUmdUrl(url1, url2) {
+    if (url1 && url2) {
+      var compareResult = extractAndCompareSemver(url1, url2);
+      return compareResult >= 0 ? url1 : url2;
+    }
+    return url1 || url2;
+  }
+
+  var urlObj = new URL(window.location.href);
+  var searchParams = new URLSearchParams(urlObj.search);
+  var __svgUmdVersion = searchParams.get('__svgUmdVersion');
+  var __componentsUmdVersion = searchParams.get('__componentsUmdVersion');
+  var __designerEditorUmdVersion = searchParams.get(
+    '__designerEditorUmdVersion',
+  );
+
+  var customUmdModuleInfosFromUrl = {};
+
+  if (__svgUmdVersion) {
+    customUmdModuleInfosFromUrl.svgjsUMDUrl = getUmdUrl(
+      __svgUmdVersion,
+      '@alipay/editable-svg',
+      'dist/svg.umd.js',
+    );
+    customUmdModuleInfosFromUrl.editableSvgUMDUrl = getUmdUrl(
+      __svgUmdVersion,
+      '@alipay/editable-svg',
+      'dist/index.umd.js',
+    );
+  }
+  if (__designerEditorUmdVersion) {
+    customUmdModuleInfosFromUrl.designerEditorUMDUrl = getUmdUrl(
+      __designerEditorUmdVersion,
+      '@alipay_designer-editor',
+      'umd/designer-editor.min.js',
+    );
+  }
+  if (__componentsUmdVersion) {
+    customUmdModuleInfosFromUrl.huameiComponentsUMDUrl = getUmdUrl(
+      __componentsUmdVersion,
+      '@alipay/huamei-components',
+      'umd/huamei-components.min.js',
+    );
+    customUmdModuleInfosFromUrl.huameiComponentsCSSUrl = getUmdUrl(
+      __componentsUmdVersion,
+      '@alipay/huamei-components',
+      'umd/huamei-components.min.css',
+    );
+    customUmdModuleInfosFromUrl.huameiUtilsUMDUrl = getUmdUrl(
+      __componentsUmdVersion,
+      '@alipay/huamei-components',
+      'umd/huamei-utils.min.js',
+    );
+    customUmdModuleInfosFromUrl.jszipUMDUrl = getUmdUrl(
+      __componentsUmdVersion,
+      '@alipay/huamei-components',
+      'umd/jszip.min.js',
+    );
+  }
+  if (Object.keys(customUmdModuleInfosFromUrl).length) {
+    sessionStorage.setItem(
+      umdModuleInfosKey,
+      JSON.stringify(customUmdModuleInfosFromUrl),
+    );
+  }
+
+  var customUmdModuleInfosFromSession = null;
+  try {
+    var customUmdModuleInfosStrFromSession =
+      sessionStorage.getItem(umdModuleInfosKey);
+    if (customUmdModuleInfosStrFromSession) {
+      customUmdModuleInfosFromSession = JSON.parse(
+        customUmdModuleInfosStrFromSession,
+      );
+    }
+  } catch (e) {}
+
+  var customUmdModuleInfosFromLocal = null;
+  try {
+    var customUmdModuleInfosStrFromLocal =
+      localStorage.getItem(umdModuleInfosKey);
+    if (customUmdModuleInfosStrFromLocal) {
+      customUmdModuleInfosFromLocal = JSON.parse(
+        customUmdModuleInfosStrFromLocal,
+      );
+    }
+  } catch (e) {}
+
+  var umdModuleInfos = Object.assign(
+    {},
+    defaultUmdModuleInfos,
+    customUmdModuleInfosFromLocal,
+    customUmdModuleInfosFromSession,
+  );
+
+  Object.keys(umdModuleInfos).forEach(function (key) {
+    // 按规则检测并选择最终的 umd url 避免 breaking change
+    umdModuleInfos[key] = detectUmdUrl(
+      // 如果是两个迭代号版本，谁在前面谁权重高，以本地的为准
+      defaultUmdModuleInfos[key],
+      umdModuleInfos[key],
+    );
+  });
+
+  console.groupCollapsed('UMD Module Infos');
+  console.log(umdModuleInfos);
+  console.log('Custom UMD Module Infos From URL', customUmdModuleInfosFromUrl);
+  console.log(
+    'Custom UMD Module Infos From Session',
+    customUmdModuleInfosFromSession,
+  );
+  console.log(
+    'Custom UMD Module Infos From Local',
+    customUmdModuleInfosFromLocal,
+  );
+  console.groupEnd();
+
+  function addScript(src) {
+    // tag 不拆开拼会被奇怪的解析规则干扰 see: https://mdn.alipayobjects.com/huamei_kofxvk/afts/img/A*2r5yS6uB3xsAAAAAAAAAAAAADnyeAQ/original
+    document.write('<script src="' + src + '"></' + 'script>');
+  }
+  function addCss(src) {
+    document.write('<link rel="stylesheet" href="' + src + '">');
+  }
+  addScript(umdModuleInfos.svgjsUMDUrl);
+  addScript(umdModuleInfos.editableSvgUMDUrl);
+  addScript(umdModuleInfos.jszipUMDUrl);
+  addScript(umdModuleInfos.huameiUtilsUMDUrl);
+  addCss(umdModuleInfos.huameiComponentsCSSUrl);
+
+  var env = (typeof __TERN__ === 'object' && __TERN__.env) || 'PROD';
+  var yuyanUmdConfigUrlMap = {
+    DEV: '//renderdev.alipay.com/p/yuyan/huamei-portal-config_umd-module-infos/zh_CN.json',
+    PRE: '//renderpre.alipay.com/p/yuyan/huamei-portal-config_umd-module-infos/zh_CN.json',
+    PROD: '//render.alipay.com/p/yuyan/huamei-portal-config_umd-module-infos/zh_CN.json',
+  };
+
+  var yuyanUmdConfigUrl =
+    yuyanUmdConfigUrlMap[env] || yuyanUmdConfigUrlMap.PROD;
+  fetch(yuyanUmdConfigUrl)
+    .then(function (res) {
+      return res.json();
+    })
+    .then(function (yuyanUmdConfig) {
+      var netType = window.__TERN__.netType.toLowerCase();
+      var netUmdConfig = yuyanUmdConfig[netType + 'UMDConfig'] || {};
+
+      localStorage.setItem(umdModuleInfosKey, JSON.stringify(netUmdConfig));
+
+      Object.keys(umdModuleInfos).forEach(function (key) {
+        const urlLocal = umdModuleInfos[key];
+        const urlAsync = netUmdConfig[key];
+        const urlResult = detectUmdUrl(urlLocal, urlAsync);
+        if (
+          urlLocal &&
+          urlAsync &&
+          urlLocal !== urlAsync &&
+          urlResult !== urlLocal
+        ) {
+          // 异步版本优先级更高，刷新页面以应用最新的 umd 版本
+          window.location.reload();
+        }
+      });
+    })
+    .catch(function (err) {});
+  window[umdModuleInfosKey] = umdModuleInfos;
+}
+
+
+        loadUmd({
+          editableSvgVersion: '5.5.8',
+          huameiComponentsVersion: '3.38.8',
+          designerEditorVersion: '1.0.6',
+          umdModuleInfosKey: '__hm_umd_module_infos__V2',
+        });
+      })();</script>
+<script>// prettier-ignore
+!function(n,o,e,t,a,i){n.yuyanMonitor={config: function(){}, logError: function() {}, log: function(){}};var r=o.createElement("script"),c=o.querySelector("head").getElementsByTagName("script")[0];
+      r.async=1,r.src="https://gw.alipayobjects.com/render/p/yuyan_npm/@alipay_yuyan-monitor-sdk/1.3.0/dist/index.umd.min.js",r.crossOrigin="anonymous",r.onload=function(){
+        YuyanMonitor&&(n.yuyanMonitor=new YuyanMonitor({"_appId":"180020010001264210","yuyanId":"180020010001264210","sprintId":"S090011492137","isH5":false}));if(n.__TERN__){if(n.__TERN__.user&&n.__TERN__.user.outUserNo){n.yuyanMonitor.config({userId:n.__TERN__.user.outUserNo,env:n.__TERN__.env});}else{n.yuyanMonitor.config({env:n.__TERN__.env});}}},o.querySelector("head").insertBefore(r,c)}(window,window.document)</script>
+
+<script>
+  !function(src) {
+    var _windowVM__TERN__;
+    function assignProperty(target, k, v) {
+      if (target.hasOwnProperty(k) && target[k] !== undefined) return;
+      if (v === undefined) return;
+      target[k] = v;
+    }
+    window._to = {};
+    if ((_windowVM__TERN__ = window.__TERN__) !== null && _windowVM__TERN__ !== void 0 && (_windowVM__TERN__ = _windowVM__TERN__.user) !== null && _windowVM__TERN__ !== void 0 && (_windowVM__TERN__ = _windowVM__TERN__.clientUser) !== null && _windowVM__TERN__ !== void 0 && _windowVM__TERN__.userId) {
+      window._to.role_id = window.__TERN__.user.clientUser.userId;
+    }
+    window._to.yuyanId=180020010001264210;
+    window._to._isPrimaryApp=true;
+    assignProperty(window._to, 'spmAPos', "a4453");
+assignProperty(window._to, 'autoExpo', true);
+assignProperty(window._to, 'bizType', "common");
+assignProperty(window._to, 'ifRouterNeedPv', true);
+assignProperty(window._to, 'autoLogPv', false);
+
+    
+  (function loader() {
+    if (Object.prototype.toString.call(window.TracertCmdCache) === '[object Array]') {
+      window.TracertCmdCache = [];
+    }
+    var Tracert = {
+      _isInit: true,
+      _readyToRun: [],
+      // 生成uuid
+      _guid: function _guid() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+          var r = Math.random() * 16 | 0;
+          var v = c === 'x' ? r : r & 0x3 | 0x8;
+          return v.toString(16);
+        });
+      },
+      get: function get(key) {
+        if (key === 'pageId') {
+          window._tracert_loader_cfg = window._tracert_loader_cfg || {};
+          if (window._tracert_loader_cfg.pageId) {
+            return window._tracert_loader_cfg.pageId;
+          }
+          var metaa = document.querySelectorAll('meta[name=data-aspm]');
+          var spma = metaa && metaa[0] && metaa[0].getAttribute('content');
+          var spmb = document.body && document.body.getAttribute('data-aspm');
+          var pageId = spma && spmb ? "".concat(spma, ".").concat(spmb, "_").concat(Tracert._guid(), "_").concat(Date.now()) : "-_".concat(Tracert._guid(), "_").concat(Date.now());
+          window._tracert_loader_cfg.pageId = pageId;
+          return pageId;
+        }
+        return this[key];
+      },
+      call: function call() {
+        var args = arguments;
+        var argsList;
+        try {
+          argsList = [].slice.call(args, 0);
+        } catch (ex) {
+          var argsLen = args.length;
+          argsList = [];
+          for (var i = 0; i < argsLen; i++) {
+            argsList.push(args[i]);
+          }
+        }
+        Tracert.addToRun(function () {
+          Tracert.call.apply(Tracert, argsList);
+        });
+      },
+      addToRun: function addToRun(_fn) {
+        var fn = _fn;
+        if (typeof fn === 'function') {
+          fn._logTimer = new Date() - 0;
+          Tracert._readyToRun.push(fn);
+        }
+      },
+      createTracert: undefined,
+      spmAPos: undefined,
+      autoLogPv: undefined,
+      autoExpo: undefined,
+      bizType: undefined,
+      ifRouterNeedPv: undefined,
+      enableMicroAppInstance: undefined,
+      v: undefined
+    };
+    var fnlist = ['config', 'logPv', 'info', 'error', 'click', 'expo', 'pageName', 'pageState', 'time', 'timeEnd', 'parse', 'expoCheck', 'stringify', 'report', 'set', 'before'];
+    for (var i = 0; i < fnlist.length; i++) {
+      var fn = fnlist[i];
+      (function (fn) {
+        Tracert[fn] = function () {
+          var args = arguments;
+          var argsList;
+          try {
+            argsList = [].slice.call(args, 0);
+          } catch (ex) {
+            var argsLen = args.length;
+            argsList = [];
+            for (var _i2 = 0; _i2 < argsLen; _i2++) {
+              argsList.push(args[_i2]);
+            }
+          }
+          argsList.unshift(fn);
+          Tracert.addToRun(function () {
+            Tracert.call.apply(Tracert, argsList);
+          });
+        };
+      })(fn);
+    }
+    if (window.Proxy) {
+      var handler = {
+        get: function get(target, property) {
+          var _targetVMhasOwnPropert;
+          if (target !== null && target !== void 0 && (_targetVMhasOwnPropert = target.hasOwnProperty) !== null && _targetVMhasOwnPropert !== void 0 && _targetVMhasOwnPropert.call(target, property)) {
+            return target[property];
+          }
+          return target.call.bind(this, property);
+        }
+      };
+      var proxyTracert = new window.Proxy(Tracert, handler);
+      window.Tracert = proxyTracert;
+    } else {
+      window.Tracert = Tracert;
+    }
+  })();
+
+
+    var _windowVMdocument, _windowVMdocumentVMcrea;
+    var curScript = (_windowVMdocument = window.document) === null || _windowVMdocument === void 0 || (_windowVMdocumentVMcrea = _windowVMdocument.createElement) === null || _windowVMdocumentVMcrea === void 0 ? void 0 : _windowVMdocumentVMcrea.call(_windowVMdocument, 'script');
+    if (!curScript) return;
+    curScript.async = true;
+    var _windowVMdocumentVMquer, _documentVMquerySelect;
+    curScript.crossOrigin = 'anonymous';
+    curScript.src = src;
+    var insertScript = ((_windowVMdocumentVMquer = window.document.querySelector('head')) === null || _windowVMdocumentVMquer === void 0 ? void 0 : _windowVMdocumentVMquer.getElementsByTagName('script')[0]) || null;
+    if (!insertScript) return;
+    (_documentVMquerySelect = document.querySelector('head')) === null || _documentVMquerySelect === void 0 ? void 0 : _documentVMquerySelect.insertBefore(curScript, insertScript);
+    curScript.onerror = function () {
+      console.warn("[Bigfish] Tracert script load error, please check your network and spma.");
+      var fallback = function fallback() {
+        console.warn("[Bigfish] Tracert run error, please make sure the script import right.");
+      };
+      var fnlist = ["call", "start", "config", "logPv", "info", "err", "click", "expo", "pageName", "pageState", "time", "timeEnd", "parse", "checkExpo", "stringify", "report", "set", "before"];
+      if (Object.prototype.toString.call(window.Tracert) != '[object Object]') {
+        window.Tracert = {};
+      }
+      for (var i = 0; i < fnlist.length; i++) {
+        window.Tracert[fnlist[i]] = fallback;
+      }
+    };
+  }('https://ur.alipay.com/tracert_a4453.js');
+</script>
+<script type="umi-route-chunk-files-map">{"p":"huamei-portal","b":"mako","f":[["caa67902-async.a2e3c600.js","caa67902"],["caa67902-async.d6d2c094.css","caa67902"],["4ac4d9cb-async.0c6dda76.js","4ac4d9cb"],["25435d9e-async.a2f12bce.js","25435d9e"],["aec481dc-async.accc0ad3.js","aec481dc"],["f23d5dd1-async.a6a02056.js","f23d5dd1"],["52d81a2b-async.21c8b7e7.js","52d81a2b"],["754631c8-async.ed35400d.js","754631c8"],["181d4c71-async.c796ff62.js","181d4c71"],["b01f77c2-async.ceae3c7f.js","b01f77c2"],["9485fd7d-async.344d1ba6.js","9485fd7d"],["0d68a4e3-async.2319e55a.js","0d68a4e3"],["8601e673-async.1a68d2c7.js","8601e673"],["3f8a3fd5-async.fe37a21f.js","3f8a3fd5"],["7f73ae4b-async.0261d8cf.js","7f73ae4b"],["a269a60d-async.bcd1c140.js","a269a60d"],["b481fe3e-async.c3c4b193.js","b481fe3e"],["4f41eb82-async.cc590318.js","4f41eb82"],["3c179c8c-async.60627cbe.js","3c179c8c"],["3992344b-async.49c74d8e.js","3992344b"],["3bf93fe8-async.98233df8.js","3bf93fe8"],["f016b8fa-async.5295bcc9.js","f016b8fa"],["2ba5882d-async.be1921eb.js","2ba5882d"],["03b4593f-async.7b420058.js","03b4593f"],["db733ade-async.00fe1914.js","db733ade"],["4bcdb5b1-async.6a964a7c.js","4bcdb5b1"],["461d4042-async.46676b1b.js","461d4042"],["e8505626-async.90694291.js","e8505626"],["acb00619-async.80ef442d.js","acb00619"],["a2a22cc9-async.c0ca02e7.js","a2a22cc9"],["c700385c-async.d6299d13.js","c700385c"],["a5625897-async.23e0e80e.js","a5625897"],["31a90963-async.8b6e08cc.js","31a90963"],["b92bc040-async.da176e5f.js","b92bc040"],["547c5b5c-async.e0889c28.js","547c5b5c"],["447cfc4f-async.362fdacd.js","447cfc4f"],["84645363-async.0b7f4726.js","84645363"],["8ce25050-async.10453ab6.js","8ce25050"],["6b995f29-async.d13902af.js","6b995f29"],["5b7ed357-async.47889971.js","5b7ed357"],["52465df5-async.8cf7afe5.js","52465df5"],["f9681d7d-async.2c16a2dd.js","f9681d7d"],["44a11b75-async.4ec892b5.js","44a11b75"],["b148a71a-async.354c9672.js","b148a71a"],["722e5f20-async.09ad0a06.js","722e5f20"],["e3a1fb32-async.ccd9bbaa.js","e3a1fb32"],["004b64d5-async.67833793.js","004b64d5"],["dc566d07-async.2fcebfad.js","dc566d07"],["19f558b2-async.fe6f109b.js","19f558b2"],["52f91db8-async.9888a047.js","52f91db8"],["f593f0ad-async.6b6f9f85.js","f593f0ad"],["7c0f575c-async.e06ddfdd.js","7c0f575c"],["02faa855-async.f3b4d7d7.js","02faa855"],["e6facd99-async.f47732ec.js","e6facd99"],["3f20ec47-async.343fba9b.js","3f20ec47"],["ade74205-async.c1db56c4.js","ade74205"],["0cd358ba-async.daa777f9.js","0cd358ba"],["70a7d47f-async.dc315d33.js","70a7d47f"],["0ba75b00-async.189cfdd6.js","0ba75b00"],["ecb66e77-async.7bada790.js","ecb66e77"],["0dc057a4-async.a8d53e31.js","0dc057a4"],["0dc057a4-async.5c940849.css","0dc057a4"],["8fe20c55-async.ca31c3de.js","8fe20c55"],["a8734d49-async.5c82f336.js","a8734d49"],["17fc880a-async.7962cb37.js","17fc880a"],["b6b9cb1e-async.caf17899.js","b6b9cb1e"],["vendors_6-async.59785f10.css","vendors_6"],["vendors_6-async.40315e16.js","vendors_6"],["common-async.5da9766e.js","common"],["vendors_0-async.0d85b540.css","vendors_0"],["vendors_0-async.245bd074.js","vendors_0"],["vendors_1-async.1173d5e2.js","vendors_1"],["vendors_1-async.9b67a533.css","vendors_1"],["vendors_2-async.ea5141cd.js","vendors_2"],["vendors_3-async.3f76d2f7.css","vendors_3"],["vendors_3-async.1b2fe8b3.js","vendors_3"],["vendors_4-async.110cd76d.js","vendors_4"],["vendors_5-async.e556b18a.css","vendors_5"],["vendors_5-async.da3d9da9.js","vendors_5"]],"r":{"/*":[2,0,1],"/":[0,1],"/index":[65,66,67,68,69,70,71,72,73,74,75,77,78,0,1],"/home":[63,66,67,68,69,70,77,78,62,0,1],"/design":[59,66,67,68,69,70,71,72,77,78,5,0,1],"/aigc":[57,66,67,68,69,70,71,72,73,77,78,5,0,1],"/aigc-class":[52,66,67,68,69,70,71,72,73,74,75,77,78,0,1],"/agentTemplateEditor":[48,68,5,66,67,69,70,0,1],"/insight":[42,66,67,68,71,72,76,77,78,5,69,70,0,1],"/material":[40,66,67,68,69,70,0,1],"/album":[38,68,77,78,5,66,67,69,70,0,1],"/brand":[36,66,67,68,69,70,0,1],"/open":[34,66,67,68,71,72,76,77,78,35,69,70,0,1],"/iwork":[26,68,77,78,0,1],"/wuying-auth":[24,0,1],"/my":[22,66,67,68,69,70,23,0,1],"/dimension":[12,66,67,68,69,70,0,1],"/preview":[11,66,67,68,69,70,0,1],"/template":[10,66,67,68,69,70,5,0,1],"/elements":[3,68,0,1],"/design/:templateId":[8,66,67,68,69,70,0,1],"/album/:albumId":[37,66,67,68,77,78,5,69,70,0,1],"/index/search":[64,66,67,68,69,70,71,72,73,74,75,77,78,0,1],"/design/editor":[60,61,66,67,68,69,70,71,72,73,77,78,0,1],"/design/new":[9,66,67,68,69,70,0,1],"/design/batch":[7,66,67,68,69,70,0,1],"/design/llm":[58,66,67,68,69,70,0,1],"/aigc/design":[56,66,67,68,69,70,77,78,5,0,1],"/aigc/templateEditor":[55,68,69,70,77,78,5,66,67,0,1],"/aigc/editor":[54,68,0,1],"/aigc/comfyui":[53,68,0,1],"/llm/templateEditor":[51,66,67,68,69,70,5,0,1],"/audio/templateEditor":[50,66,67,68,69,70,5,0,1],"/video/digitalAvatarTemplateEditor":[49,66,67,68,69,70,5,0,1],"/flow/editor":[47,68,0,1],"/agent/editor":[46,68,0,1],"/agent/replay":[45,68,0,1],"/agent/sharing":[44,68,0,1],"/agent/console":[43,68,0,1],"/insight/creatives":[41,66,67,68,5,69,70,0,1],"/material/upload":[39,66,67,68,69,70,0,1],"/open/scene-manage":[33,68,35,66,67,69,70,0,1],"/open/train-lora":[32,68,35,66,67,69,70,0,1],"/open/flow":[31,68,35,66,67,69,70,0,1],"/open/api":[30,66,67,68,69,70,71,72,73,74,75,77,78,35,0,1],"/open/AIGC":[29,66,67,68,69,70,71,72,73,74,75,77,78,35,0,1],"/open/insight":[27,66,67,68,76,77,78,35,69,70,0,1],"/my/space":[22,66,67,68,69,70,23,0,1],"/my/design":[21,66,67,68,69,70,23,0,1],"/my/scene":[20,66,67,68,69,70,23,0,1],"/my/task":[13,23,66,67,68,69,70,0,1],"/template/creativeEditor":[9,66,67,68,69,70,0,1],"/template/svgTemplateEditor":[8,66,67,68,69,70,0,1],"/template/batchMaking":[7,66,67,68,69,70,0,1],"/my/space/:spaceId/*":[17,66,67,68,69,70,77,78,5,23,0,1],"/my/design/:projectId":[9,66,67,68,69,70,23,0,1],"/iwork/onboard/:settledIn/:companyId":[25,68,0,1],"/open/flow/detail":[28,66,67,68,69,70,71,72,73,74,75,77,78,35,0,1],"/my/space/join":[19,66,67,68,69,70,23,0,1],"/template/tags/set":[6,68,5,66,67,69,70,0,1],"/my/scene/:sceneId/detail/*":[14,66,67,68,69,70,5,23,0,1],"/my/space/:spaceId/upload":[18,66,67,68,69,70,23,0,1],"/my/design/:projectId/detail":[16,66,67,68,69,70,23,0,1],"/my/scene/:id/selection/:selectionId":[15,66,67,68,69,70,23,0,1],"/my/scene/:id/selection/new":[15,66,67,68,69,70,23,0,1]}}</script>
+</head><body>
+<div id="root-master"></div>
+<script src="https://gw.alipayobjects.com/render/p/yuyan/180020010001264210/umi.6dfae04b.js" entry="" crossorigin="anonymous"></script>
+
+</body></html>
