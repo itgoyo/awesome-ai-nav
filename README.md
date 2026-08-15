@@ -9476,6 +9476,13 @@
         <td>ClipDrop推出的AI图像打光工具</td>
         <td><a href="https://clipdrop.co/relight" target="_blank">🔗</a></td>
     </tr>
+    <tr>
+        <td>76</td>
+        <td></td>
+        <td><a href="https://image.tinchak0207.xyz" target="_blank">Emu</a></td>
+        <td>在线生成 GPT Image 2 / Nano Banana Pro 图片，登录即用，不用中转站、不用申请 API Key</td>
+        <td><a href="https://image.tinchak0207.xyz" target="_blank">🔗</a></td>
+    </tr>
 </table>
 
 ## AI PPT工具
