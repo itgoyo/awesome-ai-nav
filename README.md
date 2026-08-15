@@ -9479,9 +9479,9 @@
     <tr>
         <td>76</td>
         <td></td>
-        <td><a href="https://image.tinchak0207.xyz" target="_blank">Emu</a></td>
+        <td><a href="https://eimu.art" target="_blank">Eimu</a></td>
         <td>在线生成 GPT Image 2 / Nano Banana Pro 图片，登录即用，不用中转站、不用申请 API Key</td>
-        <td><a href="https://image.tinchak0207.xyz" target="_blank">🔗</a></td>
+        <td><a href="https://eimu.art" target="_blank">🔗</a></td>
     </tr>
 </table>
 
