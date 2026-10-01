@@ -8946,6 +8946,13 @@
         <td>免费的AI提示词学习平台</td>
         <td><a href="https://learningprompt.wiki/" target="_blank">🔗</a></td>
     </tr>
+    <tr>
+        <td>24</td>
+        <td></td>
+        <td><a href="https://www.prompt-hive.net/" target="_blank">灵感蜂巢 PromptHive</a></td>
+        <td>按平台×创作环节分类的中文AI提示词库，500+结构化模板带变量槽位，专注自媒体创作</td>
+        <td><a href="https://www.prompt-hive.net/" target="_blank">🔗</a></td>
+    </tr>
 </table>
 
 ## 常用AI图像工具
