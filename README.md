@@ -5826,6 +5826,13 @@
         <td>免费的AI编程工具，智能生成和补全代码</td>
         <td><a href="https://www.codeium.com/" target="_blank">🔗</a></td>
     </tr>
+    <tr>
+        <td>86</td>
+        <td><img src="./icons/agent-qa.png" alt="agent-qa" style="height: 20px !important;width: 20px !important;"></td>
+        <td><a href="https://www.vostride.com" target="_blank">agent-qa</a></td>
+        <td>支持 Web、Android 和 iOS 的 AI 测试工具，具备持久记忆与经验证的自我改进能力</td>
+        <td><a href="https://www.vostride.com" target="_blank">🔗</a></td>
+    </tr>
 </table>
 
 ## AI设计工具
