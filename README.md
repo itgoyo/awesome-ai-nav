@@ -2621,6 +2621,13 @@
         <td>AI视频生成工具，将文本转为3秒逼真视频</td>
         <td><a href="https://hotshot.co/" target="_blank">🔗</a></td>
     </tr>
+    <tr>
+        <td>101</td>
+        <td><img src="https://www.getalphadrama.com/favicon.png" alt="favicon" style="height: 20px !important;width: 20px !important;"></td>
+        <td><a href="https://www.getalphadrama.com/" target="_blank">光梦 AlphaDrama</a></td>
+        <td>AI短剧与漫剧全流程智能创作SaaS平台，覆盖剧本改写、角色资产、分镜生图生视频与自动混剪</td>
+        <td><a href="https://www.getalphadrama.com/" target="_blank">🔗</a></td>
+    </tr>
 </table>
 
 ## AI办公工具
